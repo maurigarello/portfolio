@@ -10,7 +10,7 @@ const defaultProps = {
 ScrollReveal().reveal(".hero-title", {
   ...defaultProps,
   delay: 500,
-  origin: window.innerWidth > 768 ? "left" : "bottom",
+  origin: window.innerWidth > 999 ? "left" : "bottom",
 });
 ScrollReveal().reveal(".name", {
   ...defaultProps,
